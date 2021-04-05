@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        
+        
+    
+
+
+
+<link rel="stylesheet" href="font-awesome.min.css" >
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body><nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="https://snehalbsawant.github.io/ADVC62Project/#">Photo Gallery</a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+          <li><a href="#home">Home</a></li>
+        <li><a href="#Grids">Grid view</a></li>
+        <li><a href="#slides">Slide view</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+</nav>
+
+
+<div class="container">
+    <section id="home">
+    <div class="page-header">
+  		<h2 class="text-capitalize"></h2>
+        <img id="img1" src="home.gif" class="img-responsive">
+    </div>
+          </section>
+       <!---->
+   <hr style="width: 100%;">
+     <section id="Grids">
+        <h2> Grid gallery</h2>   
+          <br>
+         <script src="https://snehalbsawant.github.io/ADVC62Project/"></script>
+          <div class="row">
+              <img class="img2" src="capAm.jpg">
+              <img class="img2" src="BP.jpg">
+              <img class="img2" src="hulk.jpg">
+              <img class="img2" src="Ironman.jpg">
+              <br><br>	
+            </div>
+          <div class="row">
+            <img class="img2" src="thanos.jpg">
+            <img class="img2" src="thor.jpg">
+            <img class="img2" src="gamora.jpg">
+            <img class="img2" src="scarlet.jpg">
+             </div>
+             
+ </section>
+   
+    <br>
+    <br>
+     <hr style="width: 100%;">
+    
+      
+       <!-- Left and right controls -->
+    <section id="slides">
+       <h2>Sliding gallary</h2>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="3" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="4" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="5" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="6" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="7" class=""></li>
+     
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item">
+        <img class="img-responsive" src="capAm.jpg" alt="Captain America" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Captain America</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item active">
+        <img class="img-responsive" src="BP.jpg" alt="Black Panther" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Black Panther</h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img class="img-responsive" src="hulk.jpg" alt="Hulk" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Hulk</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="Ironman.jpg" alt="Ironman" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Ironman</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="thanos.jpg" alt="Thanos" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Thanos</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="thor.jpg" alt="Thor" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Thor</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="gamora.jpg" alt="Gamora" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Gamora</h3>
+          <p></p>
+        </div>
+      </div>
+         <div class="item">
+        <img class="img-responsive" src="scarlet.jpg" alt="Scarlet" style="width:100%;">
+        <div class="carousel-caption">
+          <h3>Scarlet</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="https://snehalbsawant.github.io/ADVC62Project/#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="https://snehalbsawant.github.io/ADVC62Project/#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+        </section>
+    <hr style="width: 100%;">
+<section id="contact">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.9437747895627!2d88.4439158147929!3d22.61857468515915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f89fd14c42ad21%3A0xa803c4943e3d6b87!2sMaple%20heights%20block%20A%2C%20Roypara-Hatiara%20Rd%2C%20Noapara%2C%20Sukanta%20Pally%2C%20Rajarhat%2C%20Kolkata%2C%20West%20Bengal%20700157!5e0!3m2!1sen!2sin!4v1617616468186!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+<hr style="width: 100%;">
+    <div class="contact_1">
+
+           <a href="mailto:shrilost@gmail.com?Subject=Hi">
+               <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;shrilost@gmail.com</h5>
+            </a> 
+
+           <a href="#"> 
+               <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;myinstagramid</h5>
+            </a> 
+        </div>
+
+</section>
+
+
+</div>
+
+
+
+</body></html>
